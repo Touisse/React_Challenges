@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  margin-top: 20px;
+}
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 1rem;
+  
+}
+.undo{
+  padding: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(133, 223, 68);
+  color: white;
+  margin: 1rem;
+  cursor: pointer;
+}
+.redo{
+  padding: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(223, 99, 68);
+  color: white;
+  cursor: pointer;
+}
+h1{
+  color: aliceblue;
+  font-size: 40px;
+  margin: 1rem;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 20px;
+}
+.desc{
+  font-size: 20px;
+  color: aliceblue;
+  margin: 1rem;
+  background-color: aliceblue;
+  border: #333;
+  border-radius: 5px;
+  padding: 1rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(25, 230, 213);
+  border-radius: 50%;
+  border: 1px solid #333;
+}
+.area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 800px;
+  height: 800px;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #97f70f;
+  border-radius: 20px;
+  margin: 1rem;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
