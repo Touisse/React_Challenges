@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: whitesmoke;
+  box-sizing: content-box;
+}
+.dark{
+  background-color: rgb(17, 16, 17);
+  color: white;
+}
+.Container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 2rem;
+}
+.texts{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  gap: 40px;
+  color: gray;
+  text-align: left;
+}
+.inputs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 90%;
+  gap: 20px;
+  padding-top: 2rem;
+}
+.darkInputs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 90%;
+  gap: 20px;
+  padding-top: 2rem;
+  color: white;
+}
+.inpo{
+  width: 100%;
+  height: 35px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0 15px;
+  border: none;
+  background-color: white;
+  outline: none;
+}
+.darkInpo{
+  width: 100%;
+  height: 35px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0 15px;
+  border: none;
+  background-color: rgb(66, 64, 66);
+  outline: none;
+  color: white;
+}
+input::placeholder{
+  color: rgb(180, 179, 179);
+}
+.darkInpo::placeholder{
+  color: white;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 90%;
+  gap: 10px;
+  padding-top: 2rem;
+}
+.save{
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(86, 51, 97);
+  color: white;
+  cursor: pointer;
+}
+.submit{
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(234, 98, 175);
+  color: white;
+  cursor: pointer;
+}
